@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/hrmdb
+    username: hrm
+    password: hrm
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+# Add Kafka/MQTT configs as needed
