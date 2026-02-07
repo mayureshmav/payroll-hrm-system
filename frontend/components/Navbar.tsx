@@ -1,2 +1,2 @@
 import React from 'react'
-export default function Navbar(){ return (<nav>Navbar</nav>) }
+<Link href="/attendance">Attendance</Link>
