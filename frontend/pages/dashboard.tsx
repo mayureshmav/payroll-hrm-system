@@ -1,17 +1,10 @@
-import React from 'react'
-import Link from "next/link";
+import Layout from "../components/Layout";
 
 export default function Dashboard() {
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>HRM Dashboard</h1>
-      <nav>
-        <ul>
-          <li><Link href="/payroll">Payroll</Link></li>
-          <li><Link href="/attendance">Attendance</Link></li>
-          <li><Link href="/leave">Leave Management</Link></li>
-        </ul>
-      </nav>
-    </div>
+    <Layout>
+      <h1 className="text-2xl font-bold mb-4">Dashboard</h1>
+      <p>Welcome to the HRM system. Use the sidebar to navigate.</p>
+    </Layout>
   );
 }
